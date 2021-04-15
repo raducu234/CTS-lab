@@ -20,6 +20,10 @@ public abstract class ACMEAbstractDecorator extends ACMECharacter {
 	}
 	public void heal(int points) {
 		this.character.heal(points);
+		
+		
 	}
+	
+	
 	
 }
