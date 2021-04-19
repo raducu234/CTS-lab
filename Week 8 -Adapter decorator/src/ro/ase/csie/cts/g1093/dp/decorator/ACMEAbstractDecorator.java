@@ -19,6 +19,8 @@ public abstract class ACMEAbstractDecorator extends ACMECharacter {
 		this.character.takeAHit(points);
 	}
 	public void heal(int points) {
+		
+		
 		this.character.heal(points);
 		
 		
